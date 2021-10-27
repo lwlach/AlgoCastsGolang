@@ -1,8 +1,9 @@
 package palindrome
 
 import (
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
 )
 
 func TestPalindrome(t *testing.T) {
