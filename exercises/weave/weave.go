@@ -1,7 +1,9 @@
 package weave
 
-func Weave(q1, q2 Queue) Queue {
-	var q = Queue{}
+import "github.com/lwlach/AlgoCastsGolang/exercises/queue"
+
+func Weave(q1, q2 queue.Queue) queue.Queue {
+	var q = queue.Queue{}
 	for q1.Peek() != nil || q2.Peek() != nil {
 		if q1.Peek() != nil {
 			q.Add(q1.Remove())
